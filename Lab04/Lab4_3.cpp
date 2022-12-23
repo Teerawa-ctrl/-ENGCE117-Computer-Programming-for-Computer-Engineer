@@ -30,7 +30,7 @@ int main() {
  now2 = &start ;
 
  GoNext1( now1 ) ;
- printf( "%s ", now1->name ) ;
+ printf( "Name\tage\tsex\tgpa\n%s\t%d\t%c\t%.2f ", now1->name, now1->age, now1->sex, now1->gpa ) ;
 
  return 0 ;
 }//end function
@@ -44,7 +44,6 @@ void saveNode( struct studentNode *child, char n[], int a, char s, float g ) {
 
 void GoNext1( struct studentNode *walk ) {
 	if ( walk->next != NULL ) {
-		printf("yes") ;
 		*walk = *walk->next ;
 	}
 }
