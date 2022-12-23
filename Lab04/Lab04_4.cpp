@@ -29,8 +29,8 @@ int main() {
  now1 = start ;
  now2 = &start ;
 
-GoNext1( &now1 ) ;
- printf( "%s ", now1->name ) ;
+ GoNext1( &now1 ) ;
+ printf( "Name\tage\tsex\tgpa\n%s\t%d\t%c\t%.2f ", now1->name, now1->age, now1->sex, now1->gpa ) ;
 
  return 0 ;
 }//end function
