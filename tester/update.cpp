@@ -1,3 +1,5 @@
+//นายบุญประพัฒน์ ตานัน 65543206066-4 section 1
+//https://www.youtube.com/watch?v=aL582myrR9g
 #include<stdio.h>
 #include<stdlib.h>
 
